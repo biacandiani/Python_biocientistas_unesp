@@ -89,7 +89,7 @@ Para abrir a Aula 03 e executar os códigos, basta clicar no botão abaixo:
 
 Para abrir a Aula 04 e executar os códigos, basta clicar no botão abaixo:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_4_Regressões.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_04_Ajuste_de_Curvas.ipynb)
 
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
@@ -99,6 +99,24 @@ Para abrir a Aula 04 e executar os códigos, basta clicar no botão abaixo:
 * Uma conta Google (Gmail ou e-mail institucional associado ao Google).
 * Acesso à internet e um navegador atualizado.
 * Curiosidade e vontade de aprender a integrar ciência de dados à pesquisa biológica!
+
+## 📖 Referências e Materiais de Apoio
+
+Para aprofundar os conhecimentos em programação científica, análise de dados e modelagem de bioprocessos, recomendamos os seguintes recursos:
+
+### 🐍 Documentação Oficial das Ferramentas
+* **Python Software Foundation:** [Documentação Oficial do Python](https://docs.python.org/3/) — Guia completo da linguagem.
+* **NumPy:** [NumPy Documentation](https://numpy.org/doc/) — Referência essencial para computação numérica e manipulação de arrays.
+* **SciPy:** [SciPy Reference Guide](https://docs.scipy.org/doc/scipy/) — Manuais de otimização (`curve_fit`), estatística (`linregress`) e métodos científicos.
+* **Matplotlib:** [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html) — Guia de visualização de dados e plotagem de gráficos em 2D e 3D.
+
+### 🧬 Programação Aplicada à Biologia e Engenharia
+* **Jones, P. (2015).** *Python for Biologists: A complete programming course for beginners*.
+* **Langtangen, H. P. (2016).** *A Primer on Scientific Programming with Python*. Springer (Excelente para modelagem matemática aplicada à engenharia).
+
+### ⚙️ Cinética Enzimática e Bioprocessos (Modelos Matemáticos)
+* **Doran, P. M. (2013).** *Bioprocess Engineering Principles*. Academic Press (Referência clássica para modelagem de crescimento microbiano e equações de Monod/Michaelis-Menten).
+* **Shuler, M. L., & Kargi, F. (2002).** *Bioprocess Engineering: Basic Concepts* (2nd Edition). Prentice Hall.
 
 ---
 **Professor Responsável:** Marcel Otavio Cerri  
