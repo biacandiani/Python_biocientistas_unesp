@@ -53,6 +53,23 @@ Nesta terceira aula, avançamos para a automação de cálculos e a visualizaç�
     *   **Histogramas (`hist`):** Análise estatística e distribuição de frequências, com exemplo prático modelando a curva de distribuição normal (Gaussiana) da estatura populacional.
     *   **Gráficos 3D (`plot_surface`):** Criação de superfícies tridimensionais complexas utilizando `np.meshgrid`, simulando, por exemplo, o efeito combinado da Temperatura e do pH na atividade enzimática.
 
+## 📚 Conteúdo da Aula 04 - Regressão e Ajuste de Curvas
+
+Nesta quarta aula, o foco é a modelagem matemática de dados experimentais, utilizando ferramentas estatísticas e de otimização (SciPy, NumPy e Scikit-Learn) para extrair parâmetros cinéticos e biológicos:
+
+*   **Regressão Linear Simples (`scipy.stats.linregress`):**
+    *   Construção de uma curva de calibração padrão (Concentração vs. Absorbância).
+    *   Simulação de dados com adição de ruído via `np.random.normal`.
+    *   Obtenção da inclinação (slope), intercepto e coeficiente de determinação ($R^2$).
+*   **Ajuste de Curvas Não-Lineares (`scipy.optimize.curve_fit`):**
+    *   **Crescimento Microbiano:** Ajuste de dados a um modelo exponencial para estimar a concentração inicial ($Cx_0$) e a taxa específica de crescimento ($\mu$).
+    *   **Cinética Enzimática:** Aplicação do modelo de Michaelis-Menten para estimar os parâmetros cinéticos de Velocidade Máxima ($V_{max}$) e a Constante de Michaelis ($K_m$) a partir da concentração de substrato.
+*   **Ajuste Polinomial (`np.polyfit`):**
+    *   Análise de curvas dose-resposta (efeito da concentração de um nutriente na taxa de crescimento).
+    *   Uso de polinômios de grau 2 (parábolas) para modelar comportamentos ótimos e de toxicidade.
+*   **Avaliação e Visualização de Modelos:**
+    *   Cálculo de métricas de qualidade de ajuste com a função `r2_score`.
+    *   Construção de gráficos sobrepondo dados experimentais brutos (dispersão) com curvas suaves matemáticas.
 
 ## 🚀 Como acessar e executar as aulas
 
@@ -69,6 +86,10 @@ Para abrir a Aula 02 e executar os códigos, basta clicar no botão abaixo:
 Para abrir a Aula 03 e executar os códigos, basta clicar no botão abaixo:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_03_Introdução_ao_Python_para_biocientistas.ipynb)
+
+Para abrir a Aula 04 e executar os códigos, basta clicar no botão abaixo:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_4_Regressões.ipynb)
 
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
