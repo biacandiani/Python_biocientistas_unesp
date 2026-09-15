@@ -114,7 +114,7 @@ Para abrir a Aula 04 e executar os códigos, basta clicar no botão abaixo:
 
 Para abrir a Aula 05 e executar os códigos, basta clicar no botão abaixo:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_05_Analise_Estatistica_e_Modelagem.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_05_importando_dados_ajuste.ipynb)
 
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
