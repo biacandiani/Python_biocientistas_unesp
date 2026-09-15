@@ -70,6 +70,27 @@ Nesta quarta aula, o foco é a modelagem matemática de dados experimentais, uti
 *   **Avaliação e Visualização de Modelos:**
     *   Cálculo de métricas de qualidade de ajuste com a função `r2_score`.
     *   Construção de gráficos sobrepondo dados experimentais brutos (dispersão) com curvas suaves matemáticas.
+    *   
+ ## 📚 Conteúdo da Aula 05 - Análise Estatística, Modelagem e Exportação de Dados
+
+Nesta aula prática, consolidamos a integração entre tratamento estatístico rigoroso, modelagem matemática e estruturação de relatórios:
+
+*   **Importação e Exportação de Dados com Pandas:**
+    *   Carregamento de dados experimentais diretamente de planilhas (`pd.read_excel`).
+    *   Criação de DataFrames para estruturar os resultados calculados e exportação automatizada para Excel (`pd.ExcelWriter`).
+*   **Tratamento Estatístico Aplicado:**
+    *   Cálculo de dispersão de réplicas analíticas (desvio padrão amostral e médias).
+    *   Determinação do Intervalo de Confiança de 95% utilizando a distribuição t de Student (`scipy.stats.t.interval`).
+*   **Modelagem Avançada e Desafio Prático ($k_La$):**
+    *   Ajuste linear pelo método dos mínimos quadrados com validação do coeficiente de determinação ($R^2$).
+    *   **Desafio Biotecnológico:** Otimização não-linear utilizando `curve_fit` para determinar os parâmetros da equação empírica do coeficiente volumétrico de transferência de oxigênio ($k_L a = a \cdot N^b$) em função da rotação de um biorreator.
+    *   Análise crítica dos parâmetros ajustados frente à literatura de engenharia de bioprocessos.
+*   **Visualização de Incertezas:**
+    *   Criação de gráficos com qualidade de publicação, incluindo sombreamento para limites de confiança (`fill_between`) e aplicação de barras de erro representativas (`errorbar`).
+## 📂 Arquivos de Apoio (Download Obrigatório)
+Para executar os códigos desta aula, você precisará baixar as planilhas abaixo que contêm os dados brutos:
+* 🔗 [media_desvio_dados.xlsx](./media_desvio_dados.xlsx) - *Dados para a prática de Regressão Linear.*
+* 🔗 [dados_kla.xlsx](./dados_kla.xlsx) - *Dados experimentais para o Desafio Prático.*
 
 ## 🚀 Como acessar e executar as aulas
 
@@ -90,6 +111,10 @@ Para abrir a Aula 03 e executar os códigos, basta clicar no botão abaixo:
 Para abrir a Aula 04 e executar os códigos, basta clicar no botão abaixo:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_04_Ajuste_de_Curvas.ipynb)
+
+Para abrir a Aula 05 e executar os códigos, basta clicar no botão abaixo:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Aula_05_Analise_Estatistica_e_Modelagem.ipynb)
 
 
 > **Nota para os alunos:** Após abrir o arquivo no Colab, lembre-se de clicar em `Arquivo > Salvar uma cópia no Drive` para que você possa fazer suas próprias anotações e resolver os exercícios propostos sem perder o seu progresso.
